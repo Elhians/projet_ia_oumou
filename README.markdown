@@ -13,7 +13,7 @@ LinguaLearn AI is an interactive language learning platform built with Streamlit
 ## Installation
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/Elhians/projet_ia_oumou.git
 cd lingualearn-ai
 ```
 2. Install dependencies:
@@ -39,6 +39,16 @@ streamlit run app.py
 chmod +x run.sh
 ./run.sh
 ```
+
+## Deployment on Streamlit Cloud
+
+1. Fork this repository to your GitHub account
+2. Log in to [Streamlit Community Cloud](https://streamlit.io/cloud)
+3. Click on "New App" and select your forked repository
+4. Set the main file path to `app.py`
+5. Click "Deploy"
+
+The app will automatically install all dependencies from requirements.txt and should be up and running in a few minutes.
 
 ## Project Structure
 - `app.py`: Main Streamlit application
